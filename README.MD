@@ -24,8 +24,9 @@ To run either version of the CLI tool, follow the instructions below:
    ```bash
    cd Using-JS
     ```
-2. Link the package globally
+2. Link the package globally & give execute permission
     ```bash
+    chmod +x task-cli.js
     npm link
     ```
 3. Run the tool with the command
@@ -43,8 +44,9 @@ To run either version of the CLI tool, follow the instructions below:
     ```bash
     npm install
     ```
-3. Link the package globally
+3. Link the package globally & give executable permission
     ```bash
+    chmod +x index.js
     npm link
     ```
 4. Run the tool with the command
